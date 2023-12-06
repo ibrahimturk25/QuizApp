@@ -11,10 +11,10 @@ struct Brain{
         Data(questions: "42 + 23 ", answer: ["55","68","65"],bool: "65"),
         Data(questions: "25 + 15 ", answer: ["30","40","50"],bool: "40"),
         Data(questions: "77 + 33 ", answer: ["100","120","110"],bool: "110"),
-        Data(questions: "En İyi Telefon Üreticisi ", answer: ["xiaomi","Android","Apple"],bool: "Apple"),
-        Data(questions: "En İyi Yazılımcı ", answer: ["Atıl Samancıoğlu","Mark Zukerberk","İbrahim Türk"],bool: "İbrahim Türk"),
-        Data(questions: "En iyi Oyun ", answer: ["Valorant","Counter Strike 3","League Of Legends"],bool: "Counter Strike 3"),
-        Data(questions: "En iyi Şehir", answer: ["Erzurum","Samsun","Newyork"],bool: "Erzurum")
+        Data(questions: "15 x 15", answer: ["625","225","425"],bool: "225"),
+        Data(questions: "Türkiye'nin En Kalabalık Sehri ", answer: ["Ankara","Antalya","Istanbul"],bool: "Istanbul"),
+        Data(questions: "973 / 33", answer: ["1000","900","1100"],bool: "1100"),
+        Data(questions: "En Güzel Şehir", answer: ["Erzurum","Samsun","Newyork"],bool: "Erzurum")
     ]
     
     mutating func  checkAnswer(_ userAnswer: String) -> Bool{
