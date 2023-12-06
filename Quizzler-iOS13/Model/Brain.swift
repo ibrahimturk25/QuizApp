@@ -14,7 +14,7 @@ struct Brain{
         Data(questions: "15 x 15", answer: ["625","225","425"],bool: "225"),
         Data(questions: "Türkiye'nin En Kalabalık Sehri ", answer: ["Ankara","Antalya","Istanbul"],bool: "Istanbul"),
         Data(questions: "973 / 33", answer: ["1000","900","1100"],bool: "1100"),
-        Data(questions: "En Güzel Şehir", answer: ["Erzurum","Samsun","Newyork"],bool: "Erzurum")
+        Data(questions: "En Güzel Şehir", answer: ["Erzurum","Samsun","New York"],bool: "Erzurum")
     ]
     
     mutating func  checkAnswer(_ userAnswer: String) -> Bool{
